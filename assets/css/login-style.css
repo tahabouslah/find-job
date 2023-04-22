@@ -1,0 +1,254 @@
+.container-img {
+  border-radius: 3%;
+  margin-top: 2%;
+  margin-right: 3%;
+  box-shadow: 0px 0px 6px 1px var(--bs-blue);
+  margin-top: 33px;
+  width: 537.2px;
+  height: 600px;
+  margin-left: -76px;
+  margin-right: 0.2px;
+  background: url("assets/img/3293465.jpg") center / cover repeat, var(--bs-blue);
+  border-style: none;
+  border-color: var(--bs-btn-hover-color);
+}
+
+.title-login {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", "sans-serif";
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/* --------------------------------- LOGIN -------------------------------- */
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.login,
+.container-account {
+  height: 599.362px;
+  width: 635.8px;
+  margin: 2% 94px 46px 139.2px;
+  padding-right: 308px;
+}
+.logo-web > img {
+  padding-top: 0px;
+  margin-left: -43px;
+  margin-top: 2px;
+  margin-bottom: 11px;
+}
+.container-formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-width: 1px;
+  width: 472.8px;
+}
+.container-formulaire > .title-login {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Poppins, sans-serif;
+  font-size: 41px;
+  width: 437.225px;
+  margin-left: 11px;
+  margin-top: 93.7375px;
+  margin-bottom: 23.45px;
+}
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 484.225px;
+  margin: 45px;
+  margin-left: 14px;
+  height: 309.288px;
+  margin-top: -63px;
+}
+.inptPseudo {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: -3px;
+  height: 51px;
+  border-radius: 8px;
+  width: 484px;
+}
+.inputPassword {
+  padding-top: 0px;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  height: 51px;
+  border-radius: 8px;
+  padding-bottom: 0px;
+}
+.login-btn {
+  margin-top: 25.1125px;
+  width: 401.263px;
+  margin-left: 40.225px;
+}
+.login-row {
+  font-size: 11px;
+  margin-left: 171.3px;
+  margin-right: 0px;
+  margin-top: -41.2625px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  text-align: left;
+}
+
+/* ---------------------- CREATE AN ACCOUNT AS JOB SEEKER ---------  */
+.role-title {
+  text-transform: uppercase;
+  color: var(--bs-primary);
+  font-family: Poppins, sans-serif;
+  text-align: left;
+  margin-left: 15.7125px;
+  font-size: 18px;
+  margin-top: -9px;
+}
+.tilte-create-account {
+  font-family: Poppins, sans-serif;
+  font-size: 34px;
+  width: 437.225px;
+  margin-left: -50px;
+  margin-top: 12.7375px;
+}
+.describe {
+  color: var(--bs-gray);
+  font-family: Poppins, sans-serif;
+  text-align: left;
+  margin-left: 15.7125px;
+  font-size: 14px;
+}
+.line-or {
+  margin-top: -50px;
+}
+.line-or {
+  text-align: center;
+  width: 474.225px;
+  margin-left: 15px;
+  margin-top: -14px;
+}
+.formulaire-create-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 484.225px;
+  margin: 45px;
+  margin-left: 14px;
+  height: 430px;
+  margin-top: -2px;
+}
+.formulaire-create-account > .inptCin {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: -3px;
+  height: 51px;
+  border-radius: 8px;
+  width: 484px;
+}
+.formulaire-create-account > .inptFirstName {
+  height: 51px;
+  border-radius: 8px;
+  margin-top: -10px;
+  border-radius: 8px;
+  margin-bottom: 13px;
+}
+.formulaire-create-account > .inptLastName {
+  height: 51px;
+  margin-top: -10px;
+  border-radius: 8px;
+}
+.formulaire-create-account > .inptPseudo {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: -3px;
+  height: 51px;
+  border-radius: 8px;
+  width: 484px;
+}
+.formulaire-create-account > .inptEmail {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: -3px;
+  height: 51px;
+  border-radius: 8px;
+}
+.formulaire-create-account > .inptPwd {
+  padding-top: 0px;
+  margin-top: -3px;
+  margin-bottom: 0px;
+  height: 51px;
+  border-radius: 8px;
+  padding-bottom: 0px;
+}
+.create-btn {
+  margin-top: 9.1125px;
+  width: 401.263px;
+  margin-left: 40.225px;
+}
+.create-login-row {
+  font-size: 11px;
+  margin-left: 171.3px;
+  margin-right: 0px;
+  margin-top: -41.2625px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  text-align: left;
+}
+
+/* --------------- CREATE ACCOUNT OFFERER ------------------------*/
+.inptCodeReg{
+  padding-bottom: 0px; padding-top: 0px; margin-top: -3px; height: 51px; border-radius: 8px; width: 484px;
+}
+.inptEntrName {
+  padding-bottom: 0px; padding-top: 0px; margin-top: 6px; height: 51px; border-radius: 8px; width: 484px;
+  margin-bottom: 10px;
+}
+.inptFirstName{
+  height: 51px; margin-top: 7px; border-radius: 8px;
+}
+.inptLastName{
+  height: 51px; margin-top: -10px; border-radius: 8px;
+}
+.inptEmail{
+  padding-bottom: 0px; padding-top: 0px; margin-top: -3px; height: 51px; border-radius: 8px;
+}
+
+/* --------- */
+.describeRole{
+  color: var(--bs-gray);font-family: Poppins, sans-serif;text-align: justify;margin-left: 21.7125px;font-size: 13px;width: 459.087px;padding-right: 0px;margin-right: 1px;margin-top: 15px;
+}
+.container-Roles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 483.8px;margin-left: 10px;margin-top: 16px;
+}
+.signle-role{
+  border: 1px solid rgb(118,50,204);border-radius: 6px;width: 48%;height: 122px;margin-top: 19px;
+}
+.img-bloc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+.img-bloc>img{
+  margin-left: 17px;margin-top: 5px;
+}
+.img-bloc>input{
+  margin-right: 16px;height: 21px;width: 21px;color: var(--bs-purple);border-color: var(--bs-purple);
+}
+.signle-role>p{
+  color: var(--bs-gray-600);font-size: 12px;margin-left: 19px;font-family: Poppins, sans-serif;margin-right: 6px;margin-bottom: 14px;
+}
+.signle-role>span{
+  margin-left: 19px;margin-top: 11px;font-size: 22px;font-family: Poppins, sans-serif;font-weight: bold;
+}
+.continue-btn{
+  justify-content: end;
+  margin-top: 15%;width: 476.263px;margin-left: 15.225px;
+}

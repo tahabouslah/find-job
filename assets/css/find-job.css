@@ -1,0 +1,529 @@
+body{
+  margin-left: 10px;margin-right: -36px;
+}
+/* Horizontal search barre */
+.horizontal-class{
+  display:flex;
+  background: var(--bs-white);height: 121px;color: var(--bs-white);width: 70%;margin-left: 20%;margin-top: 4%;margin-bottom: -11%;
+}
+.horizontal-filter{
+  display: flex;
+  height: 42.8px;
+  color: rgb(255,255,255);
+  border-radius: 9px;
+  width: 200%;
+  margin-left: -158px;
+  box-shadow: 2px 2px 8px 0px var(--bs-gray);
+  border: 0.4px none var(--bs-gray);
+  margin-top: -26px;
+}
+.inside-horizontal-class{
+  height: 42.8px;color: rgb(255,255,255);border-radius: 9px;width: 123%;margin-left: -194px;box-shadow: 2px 2px 8px 0px var(--bs-gray);border: 0.4px none var(--bs-gray);margin-top: -26px;
+}
+.fa-search{
+  font-size: 24px;color: var(--bs-blue);margin-top: 10px;margin-left: 60px;
+}
+.inptKeyWord{
+  border-radius: 74px;font-size: 18px;font-family: 'Archivo Narrow', sans-serif;margin-left: 14px;padding-left: 17px;border-width: 0px;width: 171.962px;opacity: 0.51;
+}
+hr{
+  width: 3px;margin: 13px 0px 16px 13px;margin-left: 23px;color: var(--bs-gray);height: 0px;border-width: 36px;border-color: var(--bs-gray);opacity: 0.45;margin-right: 36px;border-radius: 0px;margin-top: 5px;transform: scale(0.73);
+}
+.icon-location-pin{
+  color: var(--bs-blue);font-size: 24px;margin-top: 10px;margin-left: 0px;
+}
+.inptAdresse{
+  border-radius: 74px;font-size: 18px;font-family: 'Archivo Narrow', sans-serif;margin-left: 16px;padding-left: 18px;border-width: 0px;width: 172.962px;opacity: 0.52;padding-top: 6px;
+}
+.inptTypeJob{
+  border-radius: 74px;font-size: 18px;font-family: 'Archivo Narrow', sans-serif;margin-left: 7px;padding-left: 18px;border-width: 0px;width: 172.962px;opacity: 0.52;padding-top: 6px;
+}
+.icon-social-steam{
+  color: var(--bs-blue);font-size: 24px;margin-top: 10px;margin-left: -9px;
+}
+.inptRangeSalary{
+  border-radius: 74px;font-size: 18px;font-family: 'Archivo Narrow', sans-serif;margin-left: 7px;padding-left: 18px;border-width: 0px;width: 100px;opacity: 0.52;padding-top: 6px;
+}
+.findJob{
+  border-radius: 9px;
+  border-color: var(--bs-btn-border-color);
+  background: var(--bs-primary);width:10%;
+  color: var(--bs-white);border-top-left-radius: 0px;border-bottom-left-radius: 0px;font-size: 19px;
+  font-family: 'Archivo Narrow', sans-serif;
+  margin-left: 90px;
+  margin-right: -32px;
+  box-shadow: 0px 0px;
+}
+.icon-tabler-adjustments-alt{
+  color: var(--bs-blue);font-size: 24px;margin-top: 6px;margin-left: -9px;
+}
+.container {
+  width: 47%;
+  /*border: 1px solid black;*/
+  margin-top: 8%;
+}
+
+.container-img {
+  background-image: url("../../assets/img/women-transformed.jpeg");
+  background-size: cover;
+  width: 43%;
+  /*height: 33%;*/
+  border: 1px solid black;
+  border-radius: 3%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.describe {
+  margin-left: 10%;
+  font-size: 10px;
+}
+
+.btn-block {
+  width: 90%;
+  background-color: white;
+  margin-left: 3%;
+  padding: 0px;
+  color: black;
+  font-size: small;
+}
+
+.btn-block:nth-child(1) {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.btn-dark {
+  margin-left: 6%;
+  width: 84%;
+  margin-top: 3%;
+}
+
+.login-row {
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.form-check {
+  margin-top: 11%;
+}
+
+.login-info {
+  display: grid;
+  grid-column-gap: 2%;
+  grid-row-gap: 6%;
+  grid-template-columns: repeat(2,48%);
+  grid-template-rows: repeat(3,40%);
+}
+
+.col1 {
+  margin-top: 4%;
+  grid-column: 1/2;
+}
+
+.col2 {
+  margin-top: 4%;
+  grid-column: 2/3;
+}
+
+#inputPassword {
+  grid-column: 1/3;
+}
+
+#exampleFormControlInput1 {
+  grid-column: 1/3;
+}
+
+.or {
+  left: 22.4%;
+  text-align: center;
+  background-color: white;
+  width: 7%;
+  position: absolute;
+  top: 47%;
+  padding: 0%;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+.container-offers {
+  margin-top: 8%;
+  margin-left:6%;
+  width: 90%;
+}
+
+.row-of-all{
+  padding-right: 0px;
+  margin-right: -54px;
+  margin-left: 8px;
+  border-radius: 10px;
+}
+
+/* VERTICAL FILTER  - RIGHT COLUMN */
+.vertical-filter{
+  height: 960px;
+  width: 20%;
+  border-radius: 27px;
+  margin-left: -4px;
+  border-width: 0px;
+  border-color: var(--bs-gray-500);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.alert-job{
+  height: 172px;
+  background: rgba(47,143,255,0.13);
+  padding: 15px;
+  border-radius: 22px;
+  border-width: 0px;
+  border-style: solid;
+  margin-top: 16px;
+  width: 244.4px;
+}
+.alert-job-title{
+  font-family: Allerta, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.alert-job-title-description{
+  color: var(--bs-gray-600);
+  font-size: 10px;
+  font-family: Andika, sans-serif;
+  margin-top: -10px;
+}
+.alter-job-email{
+  font-family: Poppins, sans-serif;
+  color: var(--bs-gray-500);
+  font-style: italic;
+  border-radius: 11px;
+  width: 211.4px;
+  height: 28px;
+}
+.alter-job-btn{
+  width: 61%;
+  margin-left: 0px;
+  margin-top: 12px;
+  height: 37px;
+}
+.type-of-employement,.category,.seniority-level,.salary-range{
+  height: 140px;
+  margin-top: 10px;
+  padding: 18px;
+  border-radius: 22px;
+  border: 1px solid var(--bs-gray-500);
+  width: 244.4px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.salary-range{
+  height: 210px;
+}
+.type-of-employement-title,.category-title,.seniority-level-title,.salary-range-title{
+  margin: 12px;font-family: Poppins, sans-serif;font-size: 15px;font-weight: bold;margin-left: -2px;margin-top: -4px;
+}
+.type-of-employement-checks,.category-checkes,.seniority-level-title-checkes,.salary-range-checks{
+  margin-left: 11px;margin-top: -6px;
+}
+.form-check{
+  margin-top: -1.875px;font-family: Poppins, sans-serif;color: var(--bs-gray-700);
+}
+.form-check-input{
+  font-family: Poppins, sans-serif;color: var(--bs-gray-700);font-size: 15px;
+}
+
+/* BLOC OFFERS  - RIGHT COLUMN */
+.container-offers-small{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 1200px;
+  width: 75%;
+  margin-left: 40px;
+}
+/* SINGLE OFFRE */
+.single-offer{
+  width: 288px;height: 267.8px;border-radius: 22px;border-style: solid;border-color: var(--bs-gray-300);background: var(--bs-gray-100);
+  margin-bottom: 10px;
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+  height: 52px;width: 298.2px;margin-bottom: 5px;margin-top: 0px;border-width: 1px;border-color: var(--bs-blue);
+}
+.logo-company{
+  margin-left: 16px;margin-top: 16px;
+}
+.logo-save{
+  margin-left: 27px;margin-top: 20px;color: var(--bs-secondary);margin-right: 27px;
+}
+.offre-infos{
+  height: 119px;width: 298.2px;border-width: 1px;border-color: var(--bs-blue);
+}
+.offre-infos-title{
+  font-size: 22px;text-align: left;margin-left: 17px;
+}
+.offre-infos-description{
+  width: 274.4px;margin-right: 20px;margin-left: 17px;
+}
+.offre-tags{
+  display: flex;
+  justify-content: space-around;
+  height: 52px;width: 298.2px;margin-bottom: 7px;margin-top: -1px;border-width: 1px;border-color: var(--bs-blue);
+  margin-left: 7px;
+  /*   */
+}
+.offre-tags-typeWork,.offre-tags-category,.offre-tags-seniority-level{
+  border-radius: 6px;background: rgba(47,143,255,0.13);font-size: 12px;padding: 5px;padding-right: 7px;padding-left: 7px;font-family: Andika, sans-serif;color: var(--bs-primary);border-width: 1px;margin-right: 27px;height: 32px;margin-bottom: 5px;
+}
+.navigation-btns{
+  display: flex;
+  height: 52px;width: 298.2px;margin-bottom: 15px;margin-top: -13px;border-width: 1px;border-color: var(--bs-blue);
+}
+.navigation-btn{
+  width: 113.5px;height: 29px;padding-top: 3px;font-size: 13px;margin-left: 26px;
+}
+#navigation-btn{
+  margin-left: 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* NAV BARRE */
+.nav-home {
+  margin-top: -110px;
+  height: 202.5px;
+  padding-right: 0px;
+}
+
+.home-logo {
+  margin-top: 22px;
+  padding-left: 16px;
+  margin-left: -365px;
+}
+
+.nav-container-list {
+  margin-left: 26px;
+  margin-right: -304px;
+}
+
+#dropdownMenuButton2 {
+  margin-right: -52px;
+}
+
+.nav-item{
+  color: var(--bs-gray);font-family: Poppins, sans-serif;font-size: 19px;font-weight: bold;margin: 44px;margin-top: 44px;border-top-right-radius: 7px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;padding-right: 15px;border-right-width: 0.4px;margin-right: 3px;
+}
+
+.nav-container-list{
+  display: flex;
+  align-items: center;
+}
+
+.img-profile {
+  margin-right: 9px;
+  /*height: 35;*/
+  /*width: 37;*/
+}
+
+/* END NAV BARRE */
+/*  FOOTER */
+
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+footer>*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #ffffff;
+}
+footer{
+  
+  background: #140B5C;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+/* footer::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #AFAFB6;
+} */
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease;
+}
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: #140B5C;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+footer .bottom-details{
+  width: 100%;
+  background: #0F0844;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
