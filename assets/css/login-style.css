@@ -55,7 +55,7 @@
   width: 437.225px;
   margin-left: 11px;
   margin-top: 93.7375px;
-  margin-bottom: 23.45px;
+  margin-bottom: 95.45px;
 }
 .formulaire {
   display: flex;
@@ -64,7 +64,7 @@
   width: 484.225px;
   margin: 45px;
   margin-left: 14px;
-  height: 309.288px;
+  height: 354px;
   margin-top: -63px;
 }
 .inptPseudo {
@@ -73,7 +73,9 @@
   margin-top: -3px;
   height: 51px;
   border-radius: 8px;
+  height: 13%;
   width: 484px;
+  margin-bottom: 1%;
 }
 .inputPassword {
   padding-top: 0px;
@@ -97,7 +99,25 @@
   font-family: Poppins, sans-serif;
   text-align: left;
 }
-
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  margin-top: 1%;
+  height: 13%;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 /* ---------------------- CREATE AN ACCOUNT AS JOB SEEKER ---------  */
 .role-title {
   text-transform: uppercase;

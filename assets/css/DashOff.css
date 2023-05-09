@@ -431,14 +431,33 @@ body.dark .home .text {
     border-style: none;
     margin-left: 1%;
 }
-.bloc-esthetic-two-sing-offer{
-    height: 587.8px;width: 83%;margin-top: 33px;background: #ffffff;border-radius: 20px;box-shadow: -1px 0px 4px 1px rgb(147,186,225);border-style: none;
+.bloc-esthetic-two-sing-offer {
+    height: 587.8px;
+    width: 83%;
+    margin-top: 33px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: -1px 0px 4px 1px rgb(147,186,225);
+    border-style: none;
+    overflow-y: auto;
 }
-.offer-infos{
+.offer-infos {
     display: flex;
     flex-wrap: wrap;
-    height: 198.8px;width: 926.65px;margin: 17px;border-radius: 20px;border-top-left-radius: 20px;border-top-right-radius: 20px;box-shadow: 1px 1px 7px 1px var(--bs-gray);border-style: none;margin-left: 78px;margin-top: 22px;
+    height: 198.8px;
+    width: 926.65px;
+    margin: 17px;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 7px 1px var(--bs-gray);
+    border-style: none;
+    margin-left: 78px;
+    margin-bottom: 7%;
+    margin-top: 22px;
 }
+
+
 .title-offer{
     text-transform: capitalize;
     width: 548.85px;margin-left: 30px;margin-top: 13px;height: 34.9px;margin-bottom: 37px;font-family: Poppins, sans-serif;font-size: 23px;font-weight: bold;border-style: none;
@@ -490,8 +509,13 @@ body.dark .home .text {
 .valueDescription{
     font-family: Poppins, sans-serif;margin-left: 15px;font-size: 14px;width: 810px;height: 92px;margin-top: -10px;
 }
-.lblCandidat{
-    font-family: ABeeZee, sans-serif;width: 988.96px;margin-left: 87px;font-size: 25px;margin-bottom: -14px;
+.lblCandidat {
+    font-family: ABeeZee, sans-serif;
+    width: 988.96px;
+    margin-left: 87px;
+    margin-top: -4%;
+    font-size: 25px;
+    margin-bottom: -14px;
 }
 .container-offers>.head-table>.picture
 .container-offers>.head-table>.post
